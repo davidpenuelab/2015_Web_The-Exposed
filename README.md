@@ -1,4 +1,4 @@
-# [HTML5 Blank](http://html5blank.com)
+# [The Exposed](http://the-exposed.com)
 
 Powerful shell for rapidly deploying your WordPress projects.
 
