@@ -1,0 +1,280 @@
+/*
+	Theme Name: The Exposed
+	Theme URI: http://the-exposed.com
+	Description: The Exposed first site design
+	Version: 1.0.0
+	Author: David Penuela (@davidpenuelab)
+	Author URI: http://davidpenuela.co,
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+*,:after,:before{-moz-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}body,html{height:100%}body{font-size:15px;line-height:1.5;color:#000;background-color:#fff;position:relative}.clear:after,.clear:before{content:' ';display:table}.clear:after{clear:both}img{max-width:100%;vertical-align:bottom}a{color:#444;text-decoration:none}a:hover{color:#444}a:active,a:focus,a:hover{outline:0}input:focus{outline:0;border:1px solid #04A4CC}
+
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+.header {}
+.logo {}
+.logo-img {}
+.nav {}
+.sidebar {}
+.footer {}
+
+body{
+	font-family: 'Italian', serif;
+}
+.hide{display: none;}
+.right{ text-align: right;}
+.left{ text-align: left;}
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+#vision, #info{
+	display: none;
+}
+#info{
+	position:absolute;
+}
+.banner, .section {
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+.banner{
+	color:#fff;
+}
+.banner-image {
+	vertical-align: middle;
+	/*margin-top: -50px;*/
+	min-height: 100%;
+	width: 100%;
+}
+.banner-caption img{
+	margin-top: -50px;
+}
+.banner:after{
+	background-color: #0000c8;
+}
+.section:after {
+	background-color: rgba(0, 0, 0, 0.55);	
+}
+.banner:after, .section:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+}
+.banner-caption {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	z-index: 2;
+}
+.banner-top{
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	z-index: 2;
+	font-size: 30px; 
+}
+.banner-bottom{
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	z-index: 2;
+	font-size: 30px;
+}
+.second_logo{
+	margin-top: 100px;
+	margin-bottom: 65px;
+}
+/*h2{ font-family: 'Venus',Helvetica; }*/
+h3{font-family: 'Venus',serif;font-size: 60px; margin-bottom: 30px;}
+p{
+	font-size: 30px;
+	line-height: 36px;
+}
+#info{
+	background-color: #88bf8a;
+}
+#vision{
+	background-color: #ff4600;
+}
+.cross{
+	/*margin-top: -3px;*/
+}
+.toggle_vision, .toggle_info{
+	cursor:pointer;
+}
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+	font-family:'Italian';
+	src:url('fonts/Italian.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+	font-family:'Venus';
+	src:url('fonts/Venus.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+	.second_logo{
+		margin-top: 50px;
+		margin-bottom: 65px;
+	}
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
