@@ -30,6 +30,7 @@
 
 body{
 	font-family: 'Italian', serif;
+	overflow: hidden;
 }
 .hide{display: none;}
 .right{ text-align: right;}
@@ -39,10 +40,9 @@ body{
 \*------------------------------------*/
 #vision, #info{
 	display: none;
+	position: absolute;
 }
-#info{
-	position:absolute;
-}
+
 .banner, .section {
 	width: 100%;
 	min-height: 100%;
