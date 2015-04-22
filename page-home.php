@@ -1,4 +1,33 @@
 <?php get_header(); ?>
+	<!-- banner start -->
+	<!-- ================ -->
+	<div id="banner" class="banner">
+		<div class="banner-top">
+			<div class="container">
+				<div class="row">	
+					<div class="col-xs-6 toggle_vision">Vision & Concept</div>
+					<div class="col-xs-6 toggle_info right">Info & Contact</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="banner-image"></div>
+		<div class="banner-caption">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 object-non-visible text-center" data-animation-effect="fadeIn">
+						<h1 class="text-center hide">The<br>Exposed</h1>
+						<img class="main_logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_home.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner-bottom">		
+			<p class="text-center">A publishing plattform for young artists<br>exploring the boundaries of their medium </p>
+		</div>
+	</div>
+	<!-- banner end -->
+
 <!-- section RIGHT/ Info+Contact start -->
 	<!-- ================ -->
 	<div id ="info" class="section clearfix object-non-visible" data-animation-effect="fadeIn">
@@ -43,34 +72,6 @@ stephen@theexposed.com</p>
 		</div>
 	</div>	
 	<!-- section RIGHT/ Info+Contact end -->
-	<!-- banner start -->
-	<!-- ================ -->
-	<div id="banner" class="banner">
-		<div class="banner-top">
-			<div class="container">
-				<div class="row">	
-					<div class="col-xs-6 toggle_vision">Vision & Concept</div>
-					<div class="col-xs-6 toggle_info right">Info & Contact</div>
-
-				</div>
-			</div>
-		</div>
-		<div class="banner-image"></div>
-		<div class="banner-caption">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 object-non-visible text-center" data-animation-effect="fadeIn">
-						<h1 class="text-center hide">The<br>Exposed</h1>
-						<img class="main_logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_home.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="banner-bottom">		
-			<p class="text-center">A publishing plattform for young artists<br>exploring the boundaries of their medium </p>
-		</div>
-	</div>
-	<!-- banner end -->
 
 	<!-- section BOTTOM/ Vision+Concept start -->
 	<!-- ================ -->
